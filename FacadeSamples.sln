@@ -5,6 +5,16 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantOrderSteps", "RestaurantOrderSteps\RestaurantOrderSteps.csproj", "{AF07840D-9FF5-4BE4-BE2D-255E01F79456}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FoodOrderingApp", "FoodOrderingApp", "{C1C3F933-1942-44CF-8C02-C6C4829E86E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrderingApp.Domain", "FoodOrderingApp\FoodOrderingApp.Domain\FoodOrderingApp.Domain.csproj", "{F023596D-E377-433A-85FA-F5E452C27BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderingApp.Application", "FoodOrderingApp\OrderingApp.Application\OrderingApp.Application.csproj", "{BAF7BAF3-20B1-45B1-80B8-F3BF4B0BC2AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FoodOrderingApp.Infrastructure", "FoodOrderingApp\FoodOrderingApp.Infrastructure\FoodOrderingApp.Infrastructure.csproj", "{45C97784-C667-4B76-B6C4-D946DD9C3929}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderingApp.API", "FoodOrderingApp\OrderingApp.API\OrderingApp.API.csproj", "{BFCE3535-0541-4996-AE50-E01DBD4CFACF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +25,30 @@ Global
 		{AF07840D-9FF5-4BE4-BE2D-255E01F79456}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AF07840D-9FF5-4BE4-BE2D-255E01F79456}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AF07840D-9FF5-4BE4-BE2D-255E01F79456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F023596D-E377-433A-85FA-F5E452C27BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F023596D-E377-433A-85FA-F5E452C27BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F023596D-E377-433A-85FA-F5E452C27BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F023596D-E377-433A-85FA-F5E452C27BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAF7BAF3-20B1-45B1-80B8-F3BF4B0BC2AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAF7BAF3-20B1-45B1-80B8-F3BF4B0BC2AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAF7BAF3-20B1-45B1-80B8-F3BF4B0BC2AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAF7BAF3-20B1-45B1-80B8-F3BF4B0BC2AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45C97784-C667-4B76-B6C4-D946DD9C3929}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45C97784-C667-4B76-B6C4-D946DD9C3929}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45C97784-C667-4B76-B6C4-D946DD9C3929}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45C97784-C667-4B76-B6C4-D946DD9C3929}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFCE3535-0541-4996-AE50-E01DBD4CFACF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFCE3535-0541-4996-AE50-E01DBD4CFACF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFCE3535-0541-4996-AE50-E01DBD4CFACF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFCE3535-0541-4996-AE50-E01DBD4CFACF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F023596D-E377-433A-85FA-F5E452C27BBE} = {C1C3F933-1942-44CF-8C02-C6C4829E86E9}
+		{BAF7BAF3-20B1-45B1-80B8-F3BF4B0BC2AC} = {C1C3F933-1942-44CF-8C02-C6C4829E86E9}
+		{45C97784-C667-4B76-B6C4-D946DD9C3929} = {C1C3F933-1942-44CF-8C02-C6C4829E86E9}
+		{BFCE3535-0541-4996-AE50-E01DBD4CFACF} = {C1C3F933-1942-44CF-8C02-C6C4829E86E9}
 	EndGlobalSection
 EndGlobal
